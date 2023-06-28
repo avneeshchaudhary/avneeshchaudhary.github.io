@@ -78,7 +78,7 @@ plt.show()
 
 The map visualization showcases the vessel positions as red dots, providing a clear representation of the areas with high traffic and popular routes. Additional layers such as shaded relief or basemaps can be overlaid to provide context and enhance the visual appeal.
 
-![Route Analysis](https://github.com/avneeshchaudhary/avneeshchaudhary.github.io/blob/main/static/project-images/project-1/img-1.png)
+![Route Analysis](img-1.png)
 
 
 
@@ -156,7 +156,7 @@ rs = pd.DataFrame(list(centermost_points), columns=["lat", "lon"])
 
 By plotting the original vessel positions and the reduced set of centermost points on a scatter plot, we can better visualize and understand the overall distribution of sea traffic within Ontario's waterways.
 
-![project-images/project-1/img-1.png](https://github.com/avneeshchaudhary/avneeshchaudhary.github.io/blob/main/static/project-images/project-1/img-1.png)
+![project-images/project-1/img-1.png](img-2.png)
 
 
 
@@ -204,7 +204,7 @@ positions = dict(zip(knn_graph.nodes, coordinates))
 
 The network graph visualization showcases the connections between vessels, providing a visual representation of the maritime network within Ontario's waterways. This analysis helps in understanding the flow of traffic, identifying key nodes or hubs, and assessing the connectivity of vessels operating in this region.
 
-![NetworkX](static/project-images/project-1/img-3.png)
+![NetworkX](img-3.png)
 
 
 ## Conclusion
