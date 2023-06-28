@@ -40,6 +40,16 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecialistPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideFooter: false 
+  ShowWordCounts: true
+  VisitCount: true
 
   label:
     text: "Avneesh Chaudhary"
