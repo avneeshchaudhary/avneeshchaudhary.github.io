@@ -1,0 +1,141 @@
+baseURL: http://github.io/avneeshchaudhary.github.io/
+languageCode: en-us
+title: Avneesh Chaudhary
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Avneesh Chaudhary
+  description: "Computer Engineering undergrad student @ [**uOttawa**](https://www.uottawa.ca/en)"
+  keywords: [Blog, Portfolio, Data Science]
+  author: Avneesh Chaudhary
+  # author: ["Me", "You"] # multiple authors
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "Avneesh Chaudhary"
+    icon: "images/coding.png"
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Welcome! \U0001F44B"
+    subtitle: "I am currently pursuing a Computer Engineering undergrad @ [**uOttawa**](https://www.uottawa.ca/en)🏛️. My work focuses on applications of **Data Science** 🧮 and **Machine Learning** 🤖. "
+    imageUrl: "images/dp.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Avneesh's Avatar"
+    buttons:
+      - name: Blogs
+        url: blogs
+      - name: Projects
+        url: projects
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Welcome! \U0001F44B"
+    Content: "I am currently pursuing a Computer Engineering undergrad @ [**uOttawa**](https://www.uottawa.ca/en). My work focuses on applications of **Data Science** and **Machine Learning** . "
+  
+  #Multilingual
+  header:
+    search: true
+    nav:
+      - name: English
+        url: /
+        weight: 1
+      - name: French
+        url: /es/
+        weight: 2
+  socialIcons:
+
+    - name: medium
+      url: "https://medium.com/@avneeshchaudhary"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/avneeshchaudhary/"
+    - name: github
+      url: "https://github.com/avneeshchaudhary"
+    - name: twitter
+      url: "https://twitter.com/avneeshry"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/avneeshchaudhary"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+
+  editPost:
+#    URL: ""
+#    Text: "Suggest Changes" # edit text
+    URL: ""
+    Text: "" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: About
+      name: About
+      url: /about/
+      weight: 1
+    - identifier: Contact
+      name: Contact
+      url: /Contact/
+      weight: 2
+    - identifier: Resume
+      name: Resume
+      url: "https://www.buymeacoffee.com/avneeshchaudhary"
+      weight: 3
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
