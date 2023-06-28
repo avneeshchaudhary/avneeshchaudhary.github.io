@@ -222,6 +222,6 @@ Thank you for reading this project blog post. Feel free to explore the reach out
 
 **Note:** 
 
-The dataset used in this analysis is sourced from a confidential database. However, it is important to highlight that the results and insights obtained in this analysis can be replicated using publicly available datasets with similar attributes. The purpose of this demonstration is to showcase the methodology and techniques involved in geospatial marine vessel traffic analysis.
+> The dataset used in this analysis is sourced from a confidential database. However, it is important to highlight that the results and insights obtained in this analysis can be replicated using publicly available datasets with similar attributes. The purpose of this demonstration is to showcase the methodology and techniques involved in geospatial marine vessel traffic analysis.
 
-Additionally, please be aware that the author holds the copyright to all images and visual content presented in this blog post. Any form of reproduction, distribution, or publishing of these pictures without the explicit consent of the author is strictly prohibited and may be subject to legal action.
+> Additionally, please be aware that the author holds the copyright to all images and visual content presented in this blog post. Any form of reproduction, distribution, or publishing of these pictures without the explicit consent of the author is strictly prohibited and may be subject to legal action.
