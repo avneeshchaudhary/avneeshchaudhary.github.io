@@ -156,7 +156,7 @@ rs = pd.DataFrame(list(centermost_points), columns=["lat", "lon"])
 
 By plotting the original vessel positions and the reduced set of centermost points on a scatter plot, we can better visualize and understand the overall distribution of sea traffic within Ontario's waterways.
 
-![Image Description 1](project-images/project-1/img-1.png)
+![project-images/project-1/img-1.png](https://github.com/avneeshchaudhary/avneeshchaudhary.github.io/blob/main/static/project-images/project-1/img-1.png)
 
 
 
