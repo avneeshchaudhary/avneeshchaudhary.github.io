@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://github.io/avneeshchaudhary.github.io/sitemap.xml
