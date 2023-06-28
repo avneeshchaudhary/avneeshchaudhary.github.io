@@ -78,9 +78,7 @@ plt.show()
 
 The map visualization showcases the vessel positions as red dots, providing a clear representation of the areas with high traffic and popular routes. Additional layers such as shaded relief or basemaps can be overlaid to provide context and enhance the visual appeal.
 
-{{ $image := resources.Get "project-images/project-1/img-1.png" }}
-
-
+![Route basemap](img-1.png)
 
 
 ## Clustering: Identifying Traffic Hubs
@@ -157,7 +155,7 @@ rs = pd.DataFrame(list(centermost_points), columns=["lat", "lon"])
 
 By plotting the original vessel positions and the reduced set of centermost points on a scatter plot, we can better visualize and understand the overall distribution of sea traffic within Ontario's waterways.
 
-![Route basemap](img-1.png)
+![Route basemap](img-2.png)
 
 
 ## Network Analysis: Assessing Connectivity
