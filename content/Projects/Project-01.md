@@ -78,7 +78,7 @@ plt.show()
 
 The map visualization showcases the vessel positions as red dots, providing a clear representation of the areas with high traffic and popular routes. Additional layers such as shaded relief or basemaps can be overlaid to provide context and enhance the visual appeal.
 
-![Route Analysis](/img-1.png)
+![label](project-images/img-1.png))
 
 
 
